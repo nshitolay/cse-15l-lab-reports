@@ -17,13 +17,13 @@ Replace the zz with your accounts last three letters.
 
 You will receive the following message: 
 
-![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png)
+![fingerprint](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png)
 
 Select "yes" by typing in yes. 
 
 4. There should be a request for your password: 
 
-![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png)
+![VSCode Install]([[https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png)](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png))
 
 Type in your password. After this, your terminal is connected to a remote server. 
 
