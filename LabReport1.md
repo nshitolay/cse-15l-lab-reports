@@ -42,5 +42,3 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 Some of these commands are show below and your outputs should be similar:
 ![Image](http://url/a.png)	
-
-
