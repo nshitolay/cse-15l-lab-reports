@@ -1,11 +1,11 @@
 # Installing VSCode
 1. Open the VSCode website and click the blue install button to download VSCode. 
 
-![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png)
+![VSCode Install]([https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image2.png))
 
 2. Open the Home page of VSCode which should look like this or similar. 
 
-![]()
+![](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/getstarted_page.png)
 
 # Connecting to a Remote Server
 
