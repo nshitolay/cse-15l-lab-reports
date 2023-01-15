@@ -23,7 +23,7 @@ Select "yes" by typing in yes.
 
 4. There should be a request for your password: 
 
-![VSCode Install]([[https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png)](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png))
+![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png)
 
 Type in your password. After this, your terminal is connected to a remote server. 
 
