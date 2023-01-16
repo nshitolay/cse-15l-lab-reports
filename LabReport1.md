@@ -15,7 +15,7 @@ Replace the zz with your accounts last three letters.
 
 3. You will receive the following message: 
 
-![fingerprint](image1.png)
+![fingerprint](images/image1.png)
 
 Select "yes" by typing in yes. 
 
