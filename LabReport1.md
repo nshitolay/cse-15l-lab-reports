@@ -7,7 +7,7 @@
 
 # Connecting to a Remote Server
 
-1. Install Git onto your system using [this link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+1.  Use [this link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to use Git with VSCode
 
 2. To use ssh to connect to a remote server, open a new terminal window and type in the command 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu` 
