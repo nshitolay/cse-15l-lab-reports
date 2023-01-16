@@ -15,7 +15,7 @@
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu` 
 Replace the zz with your accounts last three letters. 
 
-You will receive the following message: 
+3. You will receive the following message: 
 
 ![fingerprint](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image1.png)
 
