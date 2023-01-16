@@ -3,9 +3,7 @@
 
 ![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image2.png)
 
-2. Open the Home page of VSCode which should look like this or similar. 
-
-![](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/getstarted_page.png)
+2. Open VSCode and go to the home page.
 
 # Connecting to a Remote Server
 
