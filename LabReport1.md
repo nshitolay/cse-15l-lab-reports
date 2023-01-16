@@ -1,7 +1,7 @@
 # Installing VSCode
 1. Open the VSCode website and click the blue install button to download VSCode. 
 
-![VSCode Install](images/image2.png)
+![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image2.png?raw=true)
 
 2. Open VSCode and go to the home page.
 
