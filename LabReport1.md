@@ -1,7 +1,7 @@
 # Installing VSCode
 1. Open the VSCode website and click the blue install button to download VSCode. 
 
-![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image2.png)
+![VSCode Install](images/image2.png)
 
 2. Open VSCode and go to the home page.
 
@@ -21,7 +21,7 @@ Select "yes" by typing in yes.
 
 4. There should be a request for your password: 
 
-![VSCode Install](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image6.png)
+![VSCode Install](images/image6.png)
 
 Type in your password. After this, your terminal is connected to a remote server. 
 
@@ -39,7 +39,7 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 
 Some of these commands are show below and your outputs should be similar:
-![Image](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image5.png)	
-![Image](https://github.com/nshitolay/cse-15l-lab-reports/blob/main/images/image4.png)	
+![Image](images/image5.png)	
+![Image](images/image4.png)	
 
 
