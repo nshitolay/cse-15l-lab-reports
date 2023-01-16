@@ -11,9 +11,9 @@
 
 2. To use ssh to connect to a remote server, open a new terminal window and type in the command 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu` 
-Replace the zz with your accounts last three letters. 
+Replace the "zz" with your account's last three letters. 
 
-3. You will receive the following message: 
+3. You will receive the following message as this is your first time connecting to a remote server: 
 
 ![fingerprint](images/image1.png)
 
@@ -38,7 +38,7 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 
-Some of these commands are show below and your outputs should be similar:
+Some of the commands and their outputs are shown below. Your outputs should be similar.
 ![Image](images/image5.png)	
 ![Image](images/image4.png)	
 
