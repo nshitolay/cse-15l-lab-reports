@@ -41,5 +41,3 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 - Some of the commands and their outputs are shown below. Your outputs should be similar.
 ![Image](images/image5.png)	
 ![Image](images/image4.png)	
-
-
