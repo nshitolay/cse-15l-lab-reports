@@ -33,6 +33,9 @@ Select "yes" by typing in yes.
 cd ~
 Allows you to change directories
 
+pwd
+Outputs the absolute path of your present working directory
+
 ls -lat
 Displays a list of files and directories in the specified folder
 
