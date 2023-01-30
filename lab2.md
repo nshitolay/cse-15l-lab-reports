@@ -41,13 +41,13 @@ class StringServer {
 
 2. Examples of using StringServer
 ![Hello](images/image9.png)
-- The methods that are called are the main method in the StringServer class and the handleRequest method in the URLHandler class.
-- The argument for the main method is 4000. The argument for the handleRequest method is the url of the server. The field variable String word is an empty string initially.
-- The field variable String word changes every time a new word is added as it adds the new word to the end of the String. String word changed to "Hello" after the request. The URI changes to http://localhost:4000/add-message?s=Hello
+- The methods that are called are the `main` method in the StringServer class and the `handleRequest` method in the URLHandler class.
+- The argument for the `main` method is 4000. The argument for the `handleRequest` method is the url of the server. The field variable `String word` is an empty string initially.
+- The field variable `String word` changes every time a new word is added as it adds the new word to the end of the String. `String word` changed to "Hello" after the request. The URI changes to http://localhost:4000/add-message?s=Hello
 ![How are you](images/image6.png)
-- The methods that is called is the handleRequest method in the URLHandler class.
-- The argument for the handleRequest method is the url of the server. The field variable String word "Hello" initially.
-- The field variable String word changes every time a new word is added as it adds the new word to the end of the String. String word changed to "Hello" + "\n" + "How are you" after the request. The URI changes to http://localhost:4000/add-message?s=How%20are%20you
+- The methods that is called is the `handleRequest` method in the URLHandler class.
+- The argument for the `handleRequest` method is the url of the server. The field variable `String word` is "Hello" initially.
+- The field variable `String word` changes every time a new word is added as it adds the new word to the end of the String. `String word` changed to "Hello" + "\n" + "How are you" after the request. The URI changes to http://localhost:4000/add-message?s=How%20are%20you
 
 # Part 2 - Debugging
 
@@ -97,3 +97,6 @@ public void testReversed() {
 ``` 
 
 The fix addresses this issue because initially, the elements of `newArray` were being reversed which were all initially 0 resulting in `arr` becoming a 0 array. Switching `newArray` with `arr` let the elements of `arr` to be properly reversed into `newArray` which was returned. 
+
+# Part 3 - What I learned 
+The labs in the past two weeks were very interesting. From lab 2, I learned how to write a simple web server and show output on it. From lab 3, I also learned how to debug programs in a more efficient manner. The JUnit tests helped me find bugs more easily and sped up the debugging process overall. 
