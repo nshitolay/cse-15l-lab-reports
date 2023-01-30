@@ -69,4 +69,31 @@ class StringServer {
 public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
 ```
+3. Failure inducing input
+```
+@Test
+public void testReversed() {
+    int[] input2 = {1, 2, 3, 4, 5};
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input2));
+}
+```
+4. Symptom as the output of running tests
+![Failed test](images/image4.png)
+
+5. Code without bug
+```
+ // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+``` 
+
+
+
