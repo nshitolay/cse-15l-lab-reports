@@ -97,4 +97,3 @@ public void testReversed() {
 ``` 
 
 The fix addresses this issue because initially, the elements of `newArray` were being reversed which were all initially 0 resulting in `arr` becoming a 0 array. Switching `newArray` with `arr` let the elements of `arr` to be properly reversed into `newArray` which was returned. 
-
