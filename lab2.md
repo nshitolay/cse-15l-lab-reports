@@ -63,3 +63,10 @@ class StringServer {
     return arr;
   }
 ```  
+2. Input that does not induce a failure 
+```
+ @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+```
