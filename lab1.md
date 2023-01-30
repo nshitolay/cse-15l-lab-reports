@@ -40,7 +40,7 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 Copies your files to the new specified directory
 
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-Reads data from the specified file, concatenates it, and displays it in the terminals output
+Reads data from the specified file, concatenates it, and displays it in the terminal window as output
 ```
 
 
