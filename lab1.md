@@ -27,16 +27,16 @@ Select "yes" by typing in yes.
 
 # Trying some commands. 
 
-- Here are some of the commands to try: 
+- Here are some of the commands to try and their descriptions of what they do: 
 
 ```
-cd ~
-cd
-ls -lat
-ls -a
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+cd ~ (Allows you to change directories)
+ls -lat (Displays a list of files and directories in the specified folder)
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ (Copies your files to the new specified directory)
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt (Reads data from the specified file and concatenates and displays its data)
 ```
+
+
 
 - Some of the commands and their outputs are shown below. Your outputs should be similar.
 ![Image](images/image5.png)	
