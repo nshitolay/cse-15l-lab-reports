@@ -47,4 +47,4 @@ class StringServer {
 ![How are you](images/image6.png)
 - The methods that is called is the handleRequest method in the URLHandler class.
 - The argument for the handleRequest method is the url of the server. The field variable String word "Hello" initially.
-- The field variable String word changes every time a new word is added as it adds the new word to the end of the String. String word changed to "Hello" + "\n" + "How are you" after the request. The URI changes to [http://localhost:4000/add-message?s=How](http://localhost:4000/add-message?s=How%20are%20you)
+- The field variable String word changes every time a new word is added as it adds the new word to the end of the String. String word changed to "Hello" + "\n" + "How are you" after the request. The URI changes to http://localhost:4000/add-message?s=How%20are%20you
