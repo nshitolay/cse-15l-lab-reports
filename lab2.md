@@ -1,6 +1,6 @@
 # Part 1 - Writing a Web Server 
 
-
+1. StringServer Code
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -38,3 +38,5 @@ class StringServer {
     }
 }
 ```
+
+2. Examples of using StringServer
