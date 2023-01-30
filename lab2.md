@@ -11,7 +11,6 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) 
             return words;
-    
         else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add-message")) {
@@ -38,7 +37,4 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
 ```
