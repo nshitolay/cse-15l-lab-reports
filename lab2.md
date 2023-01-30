@@ -80,6 +80,7 @@ public void testReversed() {
 }
 ```
 4. Symptom as the output of running tests
+
 ![Failed test](images/image4.png)
 
 5. Code without bug
