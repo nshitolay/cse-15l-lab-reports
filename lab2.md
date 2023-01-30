@@ -40,3 +40,5 @@ class StringServer {
 ```
 
 2. Examples of using StringServer
+![Hello](images/image9.png)
+![How are you](images/image6.png)
