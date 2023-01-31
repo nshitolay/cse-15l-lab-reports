@@ -45,6 +45,8 @@ Examples of using StringServer
 - The methods that are called are the `main` method in the StringServer class and the `handleRequest` method in the URLHandler class.
 - The argument for the `main` method is 4000. The argument for the `handleRequest` method is the url of the server. The field variable `String word` is an empty string initially.
 - The field variable `String word` changes every time a new word is added as it adds the new word to the end of the String. `String word` changed to "Hello" after the request. The URI changes to http://localhost:4000/add-message?s=Hello
+
+
 ![How are you](images/image6.png)
 - The methods that is called is the `handleRequest` method in the URLHandler class.
 - The argument for the `handleRequest` method is the url of the server. The field variable `String word` is "Hello" initially.
