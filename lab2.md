@@ -1,6 +1,6 @@
 # Part 1 - Writing a Web Server 
 
-1. StringServer Code
+StringServer Code
 
 ```
 import java.io.IOException;
@@ -40,7 +40,7 @@ class StringServer {
 }
 ```
 
-2. Examples of using StringServer
+Examples of using StringServer
 ![Hello](images/image9.png)
 - The methods that are called are the `main` method in the StringServer class and the `handleRequest` method in the URLHandler class.
 - The argument for the `main` method is 4000. The argument for the `handleRequest` method is the url of the server. The field variable `String word` is an empty string initially.
