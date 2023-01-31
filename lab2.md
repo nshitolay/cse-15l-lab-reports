@@ -52,7 +52,7 @@ class StringServer {
 
 # Part 2 - Debugging
 
-1. Code with bug
+Code with bug
 ```
  // Returns a *new* array with all the elements of the input array in reversed
   // order
@@ -64,7 +64,7 @@ class StringServer {
     return arr;
   }
 ```  
-2. Input that does not induce a failure 
+Input that does not induce a failure 
 ```
 @Test
 public void testReversed() {
@@ -72,7 +72,7 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
-3. Failure inducing input
+Failure inducing input
 ```
 @Test
 public void testReversed() {
@@ -80,11 +80,11 @@ public void testReversed() {
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input2));
 }
 ```
-4. Symptom as the output of running tests
+Symptom as the output of running tests
 
 ![Failed test](images/image4.png)
 
-5. Code without bug
+Code without bug
 ```
  // Returns a *new* array with all the elements of the input array in reversed
   // order
