@@ -1,5 +1,5 @@
 # Commmand 1 - "grep -r -l"
-The first command is grep -r -l. This command displays a list of filenames with the given pattern. 
+This command displays a list of filenames with the given pattern. 
 
 **Example 1:** 
 `grep -r -l "spaghetti" written_2`
@@ -28,9 +28,9 @@ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
 Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-# Command 2 "grep -r -o"
-This command prints filename followed by the given pattern. If the pattern appears multiple times, the file is
-printed as many times as the word appears. 
+# Command 2 - "grep -r -o"
+This command prints thr filename followed by the given pattern. If the pattern appears multiple times,
+the same filename is printed as many times as the word appears. 
 
 **Example 1:** 
 `grep -r -o "spaghetti" written_2`
@@ -64,8 +64,8 @@ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt:tapas
 Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-# Command 3 "grep -r -A n"
-This command prints the file containing the pattern and n files after that file. 
+# Command 3 - "grep -r -A n"
+This command prints the file containing the given pattern and followed by n number of files after it.
 
 **Example 1:** 
 `grep -r -A 1 "émigrée" written_2`
@@ -117,8 +117,8 @@ when Cardinal Richelieu, the 17th-century French statesman, tried claiming the i
 Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-# Command 4 "grep -r -c"
-This command prints all the filenames followed by the number of times the pattern appears in the file
+# Command 4 - "grep -r -c"
+This command prints all the filenames followed by the number of times the pattern appears in the file.
 
 **Example 1:** 
 `grep -r -c "food" written_2`
