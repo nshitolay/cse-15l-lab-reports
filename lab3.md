@@ -29,8 +29,8 @@ Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 # Command 2 - "grep -r -o"
-This command prints thr filename followed by the given pattern. If the pattern appears multiple times,
-the same filename is printed as many times as the word appears. 
+This command prints thr filename followed by the given pattern. If the pattern 
+appears multiple times, the same filename is printed as many times as the word appears. 
 
 **Example 1:** 
 `grep -r -o "spaghetti" written_2`
@@ -65,53 +65,64 @@ Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 # Command 3 - "grep -r -A n"
-This command prints the file containing the given pattern and followed by n number of files after it.
+This command prints the file containing the given pattern and followed by n 
+number of files after it.
 
 **Example 1:** 
 `grep -r -A 1 "émigrée" written_2`
 
 **Output:**
 ```
-written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:On Calle Antonio Maceo, you’ll find people
-queuing for hot chocolate drinks in the baking tropical sun at Casa del Chocolate. Opposite is 
-a charming Casa de la Trova, with rooftop performances. In the main square is a striking bust of
-Hatuey, the brave Indian leader who resisted early conquistadores until he was caught by the Spanish
-and burned at the stake. Also wander along the Malecón, the seaside avenue, from the snug Fuerte 
-Matachín (an early 19th-century fort that has a small municipal museum attached) to the Hotel La Rusa, 
-named after a legendary and glamorous Russian émigrée who over the years hosted celebrities from Che and
-Fidel to Errol Flynn.
-written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt-In and around Baracoa are several dozen pre-Colombian
-archaeological sites related to the three major Indian groups that inhabited the town at one time or another. 
-Only one native group, the Yateras, still exists.
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:On Calle
+Antonio Maceo, you’ll find people queuing for hot chocolate 
+drinks in the baking tropical sun at Casa del Chocolate. Opposite
+is a charming  Casa de la Trova, with rooftop performances. In the
+main square is a striking bust of Hatuey, the brave Indian leader 
+who resisted early conquistadores until he was caught by the Spanish
+and burned at the stake. Also wander along the Malecón, the seaside 
+avenue, from the snug Fuerte Matachín (an early 19th-century fort that
+has a small municipal museum attached) to the Hotel La Rusa, named after
+a legendary and glamorous Russian émigrée who over the years hosted 
+celebrities from Che and Fidel to Errol Flynn. 
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt-In and around 
+Baracoa are several dozen pre-Colombian archaeological sites related
+to the three major Indian groups that inhabited the town at one time
+or another. Only one native group, the Yateras, still exists.
 ```
 **Example 2:** 
 `grep -r -A 1 "Lucayans" written_2`
 
 **Output:**
 ```
-written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, 
-a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. 
-Originally from South America, they had traveled up through the Caribbean islands, surviving by 
-cultivating modest crops and from what they caught from sea and shore. Nothing in the experience
-of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the 
-Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East 
-Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus 
-claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the 
-gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
-written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothered to settle in 
-the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through 
-the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. 
-On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — 
-which was used to replenish the supplies of water on their ships before they began the long 
-journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 
-25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and 
-die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and 
-elsewhere in the Caribbean.
-written_2/travel_guides/berlitz2/Bahamas-History.txt-English sea captains also came to know the
-beautiful but deserted Bahamian islands during the 17th century. England’s first formal move was
-on 30 October 1629, when Charles I granted the Bahamas and a chunk of the American south to his 
-Attorney General, Sir Robert Health. But nothing came of that, nor of a rival French move in 1633 
-when Cardinal Richelieu, the 17th-century French statesman, tried claiming the islands for France.
+written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries 
+before the arrival of Columbus, a peaceful Amerindian people who
+called themselves the Luccucairi had settled in the Bahamas. Originally
+from South America, they had traveled up through the Caribbean islands,
+surviving by cultivating modest crops and from what they caught from sea
+and shore. Nothing in the experience of these gentle people could have 
+prepared them for the arrival of the Pinta, the Niña, and the Santa Maria 
+at San Salvador on 12 October 1492. Columbus believed that he had reached the East 
+Indies and mistakenly called these people Indians. We know them today as the Lucayans. 
+Columbus claimed the island and others in the Bahamas for his royal
+Spanish patrons, but not finding the gold and other riches he was seeking,
+he stayed for only two weeks before sailing towards Cuba.
+written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never
+bothered to settle in the Bahamas, but the number of shipwrecks attest that
+their galleons frequently passed through the archipelago en route to and from the
+Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers
+dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used
+to replenish the supplies of water on their ships before they began the long journey back
+to Europe with their cargoes of South American gold. As for the Lucayans, within 
+25 years all of them, perhaps some 30,000 people, were removed from the Bahamas
+to work — and die — in Spanish gold mines and on farms and pearl fisheries on
+Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+written_2/travel_guides/berlitz2/Bahamas-History.txt-English sea
+captains also came to know the beautiful but deserted Bahamian islands during 
+the 17th century. England’s first formal move was on 30 October 1629, when
+Charles I granted the Bahamas and a chunk of the American south to his Attorney
+General, Sir Robert Health. But nothing came of that, nor of a rival French move
+in 1633 when Cardinal Richelieu, the 17th-century French statesman, tried 
+claiming the islands for France.
 ```
 
 Sources:
