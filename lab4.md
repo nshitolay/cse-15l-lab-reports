@@ -12,9 +12,6 @@ The part after clone is copy pasted from GitHub.
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 
-
-![image](https://user-images.githubusercontent.com/122496486/220794853-765a8a9f-ab1b-44e6-ba90-8d334be97518.png)
-
 nano ListExamples.java
 
 ![image](https://user-images.githubusercontent.com/122496486/220794921-b9746266-a893-4de8-9804-11c4710a258b.png)
