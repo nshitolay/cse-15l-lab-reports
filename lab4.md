@@ -17,6 +17,8 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 # Step 4
 nano ListExamples.java
+![image](https://user-images.githubusercontent.com/122496486/220796554-fd0135d9-5a2f-4873-8ac2-efd7a7395ae6.png)
+
 
 ![image](https://user-images.githubusercontent.com/122496486/220794921-b9746266-a893-4de8-9804-11c4710a258b.png)
 
