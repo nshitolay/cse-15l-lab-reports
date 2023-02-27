@@ -1,5 +1,5 @@
 # Commmand 1 - "grep -r -l"
-This command displays a list of filenames with the given pattern. 
+This command displays a list of filenames with the given pattern. This command is useful because it helps users quickly find the files they are looking for using a keyword. This may be used when there a several files in a directory and the user only wants files that are related a certain topic. 
 
 **Example 1:** 
 `grep -r -l "spaghetti" written_2`
@@ -26,7 +26,7 @@ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
 ```
 
 Sources:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+[Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 # Command 2 - "grep -r -o"
 This command prints thr filename followed by the given pattern. If the pattern 
