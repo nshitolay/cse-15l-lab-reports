@@ -1,5 +1,9 @@
 # Commmand 1 - "grep -r -l"
-This command displays a list of filenames with the given pattern. This command is useful because it helps users quickly find the files they are looking for using a keyword. This may be used when there a several files in a directory and the user only wants files that are related a certain topic. 
+This command displays a list of filenames with the given pattern. 
+This command is useful because it helps users quickly find the files
+they are looking for using a keyword. This may be used when there a 
+several files in a directory and the user only wants files that are 
+related a certain topic. 
 
 **Example 1:** 
 `grep -r -l "spaghetti" written_2`
@@ -26,11 +30,14 @@ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
 ```
 
 Sources:
-[Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 # Command 2 - "grep -r -o"
 This command prints thr filename followed by the given pattern. If the pattern 
-appears multiple times, the same filename is printed as many times as the word appears. 
+appears multiple times, the same filename is printed as many times as the word appears.
+This command is useful to find files that contain a certain word and how many times 
+they appear in it. This may be used when a user wants to find a file with the most 
+appearances of a certain word. 
 
 **Example 1:** 
 `grep -r -o "spaghetti" written_2`
@@ -62,11 +69,14 @@ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt:tapas
 ```
 
 Sources:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 # Command 3 - "grep -r -A n"
 This command prints the file containing the given pattern and followed by n 
-number of files after it.
+number of files after it. This command is useful if the user is looking for 
+certain files after a file that contains a word that the user wants. This may
+be used if the files are in alphabetical order and the user wants files only
+after a certain file that contains the given word. 
 
 **Example 1:** 
 `grep -r -A 1 "émigrée" written_2`
@@ -126,10 +136,13 @@ claiming the islands for France.
 ```
 
 Sources:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 # Command 4 - "grep -r -c"
-This command prints all the filenames followed by the number of times the pattern appears in the file.
+This command prints all the filenames followed by the number of times the 
+pattern appears in the file. This command is useful if the user wants to find 
+how many times each word appears in each file. This may be used if the user
+wants to find which file has the word that appears the most and least times.
 
 **Example 1:** 
 `grep -r -c "food" written_2`
@@ -593,4 +606,4 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
 ```
 
 Sources:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
