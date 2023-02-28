@@ -1,4 +1,4 @@
-# Step 1 - ssh into the remote server
+# Step 1 - Log into ieng6
 
 **What I typed:**
 
@@ -7,7 +7,7 @@ ssh cs15lwi23aea@ieng6.ucsd.edu
 ![image](https://user-images.githubusercontent.com/122496486/220794330-4edae0a2-165d-46ec-92a1-3f8f06fc3aeb.png)
 
 
-# Step 2 - clone the lab7 repository
+# Step 2 - Clone your fork of the repository from your Github account
 
 **What I typed:**
 
@@ -16,7 +16,7 @@ git clone git@github.com:nshitolay/lab7.git
 ![image](https://user-images.githubusercontent.com/122496486/220794517-7c78abac-909d-487e-8d0d-6cf7deb2d622.png)
 
 
-# Step 3 - Compile and Run the tests demonstrating that they fail
+# Step 3 - Run the tests, demonstrating that they fail
 
 **What I typed:**
 
@@ -51,8 +51,8 @@ I changed index1 to index2 in the last while loop of the code.
 
 **What I typed:**
 
-1. Up Up Up Up Enter (To Compile the Tests)
-2. Up Up Up Enter (To Run the Tests)
+1. `Up` `Up` `Up` `Up` `Enter` (To Compile the Tests)
+2. `Up` `Up` `Up` `Enter` (To Run the Tests)
   
 ![image](https://user-images.githubusercontent.com/122496486/220796091-187f1804-21ef-4ca1-a0af-bffc547d57ec.png)
 
