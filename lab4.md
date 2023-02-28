@@ -56,7 +56,11 @@ I changed index1 to index2 in the last while loop of the code.
   
 ![image](https://user-images.githubusercontent.com/122496486/220796091-187f1804-21ef-4ca1-a0af-bffc547d57ec.png)
 
-# Step 6
+# Step 6 - Commit and push the resulting change to your Github account
+
+**What I typed:**
+
+1. 
 
 
 # Step 7
