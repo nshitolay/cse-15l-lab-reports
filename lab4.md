@@ -64,6 +64,4 @@ I changed index1 to index2 in the last while loop of the code.
 2. git commit -m "Edited Examples"
 3. git push
 
-
-# Step 7
 ![image](https://user-images.githubusercontent.com/122496486/220795542-750bb193-0778-46bc-8a1a-7e2a27b581d4.png)
