@@ -52,8 +52,8 @@ Up Up Up Enter (Run)
 
 **What I typed:**
 
-1. <up><up><up><up><enter> (To compile the tests)
-2. <up><up><up><enter> (To run the tests)
+1. <up> <up> <up> <up> <enter> (To compile the tests)
+2. <up> <up> <up> <enter> (To run the tests)
   
 ![image](https://user-images.githubusercontent.com/122496486/220796091-187f1804-21ef-4ca1-a0af-bffc547d57ec.png)
 
