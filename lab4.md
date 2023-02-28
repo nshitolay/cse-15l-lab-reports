@@ -45,15 +45,14 @@ I changed index1 to index2 in the last while loop of the code.
 
 
 
-Up Up Up Up Enter (Compile)
-Up Up Up Enter (Run)
+
 
 # Step 5 - Run the tests, demonstrating that they now succeed
 
 **What I typed:**
 
-1. <up> <up> <up> <up> <enter> (To compile the tests)
-2. <up> <up> <up> <enter> (To run the tests)
+1. Up Up Up Up Enter (To Compile the Tests)
+2. Up Up Up Enter (To Run the Tests)
   
 ![image](https://user-images.githubusercontent.com/122496486/220796091-187f1804-21ef-4ca1-a0af-bffc547d57ec.png)
 
