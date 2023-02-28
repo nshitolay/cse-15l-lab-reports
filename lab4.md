@@ -60,7 +60,9 @@ I changed index1 to index2 in the last while loop of the code.
 
 **What I typed:**
 
-1. 
+1. git add ListExamples.java
+2. git commit -m "Edited Examples"
+3. git push
 
 
 # Step 7
