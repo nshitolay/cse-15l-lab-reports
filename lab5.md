@@ -71,3 +71,52 @@ and a seasonal variety of peas, green beans, peppers, and other vegetables.
 Paella alicantina is the same, plus generous portions of whole prawns, mussels,
 small whole crabs, octopus, and slices of lemon. A good one is a gastronomic thrill!
 ```
+
+# Commmand 1 - "grep -r -w"
+**Example 1**
+`grep -r -B 1 "émigrée" written_2`
+
+**Output**
+```
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt-Baracoa, though, has so much going
+for it that any associations with Columbus are a bonus. A good place to get your bearings 
+is the hilltop Hotel El Castillo, a former castle looking out over old red-tiled roofs,
+the town’s oyster-shaped bay, and the landmark mountain known as “El Yunque” (“The Anvil”), 
+so named on account of its singular shape.
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:On Calle Antonio Maceo, you’ll find 
+people queuing for hot chocolate drinks in the baking tropical sun at Casa del Chocolate. 
+Opposite is a charming Casa de la Trova, with rooftop performances. In the main square is 
+a striking bust of Hatuey, the brave Indian leader who resisted early conquistadores until
+he was caught by the Spanish and burned at the stake. Also wander along the Malecón, the 
+seaside avenue, from the snug Fuerte Matachín (an early 19th-century fort that has a small
+municipal museum attached) to the Hotel La Rusa, named after a legendary and glamorous Russian
+émigrée who over the years hosted celebrities from Che and Fidel to Errol Flynn.
+```
+
+***Example 2***
+`grep -r -B 1 "Lucayans" written_2`
+
+**Output**
+```
+written_2/travel_guides/berlitz2/Bahamas-History.txt-A Brief History
+written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before 
+the arrival of Columbus, a peaceful Amerindian people who called themselves
+the Luccucairi had settled in the Bahamas. Originally from South America, they 
+had traveled up through the Caribbean islands, surviving by cultivating modest 
+crops and from what they caught from sea and shore. Nothing in the experience
+of these gentle people could have prepared them for the arrival of the Pinta,
+the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed
+that he had reached the East Indies and mistakenly called these people Indians. We
+know them today as the Lucayans. Columbus claimed the island and others in the Bahamas
+for his royal Spanish patrons, but not finding the 
+gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
+written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothered to settle
+in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed 
+through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports.
+On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which
+was used to replenish the supplies of water on their ships before they began the long journey back
+to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of
+them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish 
+gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+```
+
