@@ -93,7 +93,7 @@ municipal museum attached) to the Hotel La Rusa, named after a legendary and gla
 émigrée who over the years hosted celebrities from Che and Fidel to Errol Flynn.
 ```
 
-***Example 2***
+**Example 2**
 `grep -r -B 1 "Lucayans" written_2`
 
 **Output**
