@@ -37,7 +37,7 @@ complete with horses, cowboys, and barroom brawls.
 ```
 
 **Example 2** 
-`grep -r -w "saffron`
+`grep -r -w "saffron" written_2`
 
 **Output:**
 ```
@@ -72,7 +72,17 @@ Paella alicantina is the same, plus generous portions of whole prawns, mussels,
 small whole crabs, octopus, and slices of lemon. A good one is a gastronomic thrill!
 ```
 
-# Commmand 1 - "grep -r -B"
+Sources:
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
+# Commmand 2 - "grep -r -B"
+This command prints the file containing the given pattern and followed by n 
+number of files before it. This command is useful if the user is looking for 
+certain files before a file that contains a word that the user wants. This may
+be used if the files are in alphabetical order and the user wants files only
+before a certain file that contains the given word. 
+
+
 **Example 1**
 `grep -r -B 1 "émigrée" written_2`
 
@@ -119,4 +129,7 @@ to Europe with their cargoes of South American gold. As for the Lucayans, within
 them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish 
 gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
+
+Sources:
+[Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
