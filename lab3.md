@@ -1,4 +1,4 @@
-# Commmand 1 - "grep -r -l"
+# Command 1 - "grep -r -l"
 This command displays a list of filenames with the given pattern. 
 This command is useful because it helps users quickly find the files
 they are looking for using a keyword. This may be used when there a 
