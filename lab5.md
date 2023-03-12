@@ -72,7 +72,7 @@ Paella alicantina is the same, plus generous portions of whole prawns, mussels,
 small whole crabs, octopus, and slices of lemon. A good one is a gastronomic thrill!
 ```
 
-# Commmand 1 - "grep -r -w"
+# Commmand 1 - "grep -r -B"
 **Example 1**
 `grep -r -B 1 "émigrée" written_2`
 
