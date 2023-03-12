@@ -1,4 +1,4 @@
-# Commmand 1 - "grep -r -w"
+# Command 1 - "grep -r -w"
 This command prints out the files that contains the given pattern.
 This command is useful because a user is able to see the file and its contents a 
 certain word. This may be used when a user wants to see files and print them
@@ -75,7 +75,7 @@ small whole crabs, octopus, and slices of lemon. A good one is a gastronomic thr
 Sources:
 [Geeks for Geeks on Grep Commands](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-# Commmand 2 - "grep -r -B"
+# Command 2 - "grep -r -B"
 This command prints the file containing the given pattern and followed by n 
 number of files before it. This command is useful if the user is looking for 
 certain files before a file that contains a word that the user wants. This may
