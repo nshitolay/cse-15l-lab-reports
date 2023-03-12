@@ -42,11 +42,6 @@ I changed index1 to index2 in the last while loop of the code.
 ![image](https://user-images.githubusercontent.com/122496486/220794921-b9746266-a893-4de8-9804-11c4710a258b.png)
 
 
-
-
-
-
-
 # Step 5 - Run the tests, demonstrating that they now succeed
 
 **What I typed:**
