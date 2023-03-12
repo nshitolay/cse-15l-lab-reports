@@ -1,3 +1,7 @@
+# Lab 5
+For this Lab Report, I chose to extend upon Lab 3 by investigating two more grep commands.
+
+
 # Command 1 - "grep -r -w"
 This command prints out the files that contains the given pattern.
 This command is useful because a user is able to see the file and its contents a 
