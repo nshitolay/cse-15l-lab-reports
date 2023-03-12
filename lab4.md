@@ -29,7 +29,7 @@
 
 # Step 4 - Edit the code file to fix the failing test 
 
-**What I typed**
+**What I typed:**
 
 1. `nano ListEx <Tab> <Enter>` (This autofilled to `nano ListExamples.java`)
 2. Using the down arrow key, right arrow key, and backspace, 
